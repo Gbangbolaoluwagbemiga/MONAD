@@ -5,7 +5,7 @@ function Header() {
 
 
 function handleMode(){
-  monadMode?alert("Monad mode deactivated"):alert("Monad mode activated")
+  monadMode?alert("Monad mode deactivated"):alert("Monad mode deactivated")
   setMonadMode(prev=>!prev)
 }
 
@@ -23,7 +23,7 @@ function handleMode(){
 
       <div className="flex justify-between gap-4 text-xl font-semibold md:gap-8 md:text-2xl">
         <p className="cursor-pointer">About</p>
-        <p className="cursor-pointer">Ar</p>
+        <p className="cursor-pointer">Art</p>
         <p className="cursor-pointer">Contact</p>
       </div>
     </div>
