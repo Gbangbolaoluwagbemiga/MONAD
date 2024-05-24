@@ -4,7 +4,7 @@ function Header() {
   const { setMonadMode, monadMode } = UseMonad();
 
   function handleMode() {
-    monadMode ? alert("Monad mode activated") : alert("Monad mode deactivated");
+    monadMode ? alert("Monad mode deactivated") : alert("Monad mode activated");
     setMonadMode((prev) => !prev);
   }
 
