@@ -4,9 +4,10 @@ const MonadContext = createContext();
 
 function MonadProvider({ children }) {
   const [showLoader, setShowLoader] = useState(true);
+  const [monadMode, setMonadMode] = useState(false);
 
   return (
-    <MonadContext.Provider value={{ showLoader, setShowLoader }}>
+    <MonadContext.Provider value={{ showLoader, setShowLoader, monadMode,setMonadMode }}>
       {children}
     </MonadContext.Provider>
   );

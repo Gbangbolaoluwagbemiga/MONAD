@@ -1,8 +1,13 @@
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import { UseMonad } from "../context/UseMonad";
 // import monad from "../assets/IMG_0274.gif";
 
 function Main() {
+  const { setMonadMode, monadMode} = UseMonad();
+
+
+
   const fade = {
     initial: { opacity: 0, y: 150 },
     animate: (index) => ({
@@ -17,7 +22,7 @@ function Main() {
   });
 
   return (
-    <div className="main px-6 py-4 text-purple-400 md:px-12 md:py-8 md:text-[#05040c]">
+    <div className={`main px-6 py-4 text-purple-400 md:px-12 md:py-8 md:text-[#05040c]`}>
       <motion.h1
         ref={ref}
         variants={fade}

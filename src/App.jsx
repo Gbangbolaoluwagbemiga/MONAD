@@ -10,7 +10,7 @@ function App() {
   return (
     <div
       //  style={{ background: "hsl(270, 80%, 70%)" }}
-      className=""
+      className="  "
     >
       <Intro />
 
