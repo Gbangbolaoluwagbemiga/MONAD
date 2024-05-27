@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <div
-      className={`flex justify-between p-4 ${
+      className={`fle justify-between p-4 ${
         monadMode ? "bg-[#d138d1]" : "bg-white"
       }`}
     >
