@@ -45,10 +45,21 @@ const Timer = () => {
   });
 
   return (
-    <div className="flex justify-center text-xl font-bold md:text-3xl">
-      <div>
-        <h1 className="my-3 text-center">Countdown Timer</h1>
-        {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+    <div>
+      <div className="flex">
+        <h2 className=" text-xl font-bold md:text-3xl">EvilOrd</h2>
+        <img
+          src="https://cdn.prod.website-files.com/6241bcd9e666c1514401461d/665b14554cc4ee882ce7549a_evilord-bitcoin-nfts-buy-crypto-art-nft-trading-bitcoin-drops.jpg"
+          alt="Loader Image"
+          className=" spinner ms-2 h-8 w-8 cursor-pointer rounded-full"
+        />
+      </div>
+
+      <div className="flex justify-center text-xl font-bold md:text-3xl">
+        <div>
+          <h1 className="my-3 text-center">Countdown Timer</h1>
+          {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+        </div>
       </div>
     </div>
   );
