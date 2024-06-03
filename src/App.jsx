@@ -27,11 +27,11 @@ function App() {
       <Intro />
 
       {!showLoader && (
-        <>
+        <div className="evilOrd">
           {" "}
           <Timer />
           <Evolution />
-        </>
+        </div>
       )}
     </div>
   );

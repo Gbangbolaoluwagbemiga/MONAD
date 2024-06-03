@@ -7,6 +7,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.evilOrd {
+  background-image: url("./Evilord/EAsset/ewall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .scroll-container {
   width: 100%;
