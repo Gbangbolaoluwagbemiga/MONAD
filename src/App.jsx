@@ -22,9 +22,15 @@ function App() {
     //     </>
     //   )}
     // </div>
+    <div className="  ">
+      <Intro />
 
-    <div>
-      <Timer />
+      {!showLoader && (
+        <>
+          {" "}
+          <Timer />
+        </>
+      )}
     </div>
   );
 }

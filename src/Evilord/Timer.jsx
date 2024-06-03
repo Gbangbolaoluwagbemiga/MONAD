@@ -45,9 +45,11 @@ const Timer = () => {
   });
 
   return (
-    <div>
-      <h1>Countdown Timer</h1>
-      {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+    <div className="flex justify-center text-xl font-bold md:text-3xl">
+      <div>
+        <h1 className="my-3 text-center">Countdown Timer</h1>
+        {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+      </div>
     </div>
   );
 };

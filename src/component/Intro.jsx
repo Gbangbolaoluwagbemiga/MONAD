@@ -35,7 +35,7 @@ const Intro = () => {
 
   return (
     <div
-      className={`loader-container m-auto w-96 gap-6 px-8 text-4xl md:text-8xl ${
+      className={`loader-container m-auto gap-6 bg-orange-500 px-8 text-4xl md:text-8xl ${
         showLoader ? "" : "hidden"
       }`}
     >
