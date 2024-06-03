@@ -1,3 +1,4 @@
+import Arts from "./Evilord/Arts";
 import Evolution from "./Evilord/EvilHead";
 import Timer from "./Evilord/Timer";
 import Header from "./component/Header";
@@ -31,6 +32,7 @@ function App() {
           {" "}
           <Timer />
           <Evolution />
+          <Arts />
         </div>
       )}
     </div>
