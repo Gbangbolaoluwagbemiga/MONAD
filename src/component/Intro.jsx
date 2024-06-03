@@ -8,7 +8,8 @@ const Intro = () => {
   const [showImage, setShowImage] = useState(false);
 
   useEffect(() => {
-    const text = "MONAD";
+    // const text = "MONAD";
+    const text = "EvilOrd";
     let index = 0;
 
     const interval = setInterval(() => {
@@ -41,7 +42,8 @@ const Intro = () => {
       <h1 className="font-extrabold text-[#5246A3]">{loadingText}</h1>
       {showImage && (
         <img
-          src="https://static.chainbroker.io/mediafiles/projects/monad/monad.jpeg"
+          // src="https://static.chainbroker.io/mediafiles/projects/monad/monad.jpeg"
+          src="https://cdn.prod.website-files.com/6241bcd9e666c1514401461d/665b14554cc4ee882ce7549a_evilord-bitcoin-nfts-buy-crypto-art-nft-trading-bitcoin-drops.jpg"
           alt="Loader Image"
           className=" spinner ms-[-0.5rem] h-8 w-8 rounded-full md:h-16 md:w-16"
         />

@@ -1,3 +1,4 @@
+import Timer from "./Evilord/Timer";
 import Header from "./component/Header";
 import Intro from "./component/Intro";
 import Main from "./component/Main";
@@ -8,19 +9,22 @@ function App() {
   const { showLoader } = UseMonad();
 
   return (
-    <div
-      //  style={{ background: "hsl(270, 80%, 70%)" }}
-      className="  "
-    >
-      <Intro />
+    // <div
+    //   className="  "
+    // >
+    //   <Intro />
 
-      {!showLoader && (
-        <>
-          <Header />
-          <Main />
-          <Team />
-        </>
-      )}
+    //   {!showLoader && (
+    //     <>
+    //       <Header />
+    //       <Main />
+    //       <Team />
+    //     </>
+    //   )}
+    // </div>
+
+    <div>
+      <Timer />
     </div>
   );
 }
