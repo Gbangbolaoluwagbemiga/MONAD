@@ -22,7 +22,7 @@ function Arts() {
 
   return (
     <div className="p-6 md:p-20">
-      <p className="text-center text-2xl font-bold md:text-4xl">ART</p>
+      <h1 className="text-center text-2xl font-bold md:text-4xl">ART</h1>
       <p className="my-5 justify-between md:flex">
         <motion.img
           ref={ref}
