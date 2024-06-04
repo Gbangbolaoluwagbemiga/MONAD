@@ -14,7 +14,7 @@ function Footer() {
         </a>
       </div>
 
-      <p>All right reserved, A dedication by Cryptic-Dev.</p>
+      <p>All ight reserved, A dedication by Cryptic-Dev.</p>
     </div>
   );
 }
