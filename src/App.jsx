@@ -12,32 +12,32 @@ function App() {
   const { showLoader } = UseMonad();
 
   return (
-    // <div
-    //   className="  "
-    // >
-    //   <Intro />
-
-    //   {!showLoader && (
-    //     <>
-    //       <Header />
-    //       <Main />
-    //       <Team />
-    //     </>
-    //   )}
-    // </div>
     <div className="  ">
       <Intro />
 
       {!showLoader && (
-        <div className="evilOrd">
-          {" "}
-          <Timer />
-          <Evolution />
-          <Arts />
-          <Footer />
-        </div>
+        <>
+          <Header />
+          <Main />
+          <Team />
+        </>
       )}
     </div>
+
+    // EvilOrd
+    // <div className="  ">
+    //   <Intro />
+
+    //   {!showLoader && (
+    //     <div className="evilOrd">
+    //       {" "}
+    //       <Timer />
+    //       <Evolution />
+    //       <Arts />
+    //       <Footer />
+    //     </div>
+    //   )}
+    // </div>
   );
 }
 
