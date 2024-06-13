@@ -26,6 +26,7 @@ function App() {
 
     // EvilOrd
     // <div className="  ">
+    //   <Intro />
 
     //   {!showLoader && (
     //     <div className="evilOrd">
