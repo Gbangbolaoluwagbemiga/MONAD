@@ -12,7 +12,7 @@ function App() {
   const { showLoader } = UseMonad();
 
   return (
-    <div className="  ">
+    <div className="">
       <Intro />
 
       {!showLoader && (
@@ -23,8 +23,7 @@ function App() {
         </>
       )}
     </div>
-
-   );
+  );
 }
 
 export default App;
