@@ -24,21 +24,7 @@ function App() {
       )}
     </div>
 
-    // EvilOrd
-    // <div className="  ">
-    //   <Intro />
-
-    //   {!showLoader && (
-    //     <div className="evilOrd">
-    //       {" "}
-    //       <Timer />
-    //       <Evolution />
-    //       <Arts />
-    //       <Footer />
-    //     </div>
-    //   )}
-    // </div>
-  );
+   );
 }
 
 export default App;
